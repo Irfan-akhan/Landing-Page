@@ -8,9 +8,8 @@ body {
 }
 
 header {
-  height: 90vh;
+  height: 95vh;
   text-transform: uppercase;
-  font-weight: 900;
   font-size: x-large;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,9 +18,9 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -36,7 +35,7 @@ header {
 
 header span#logo {
   padding: 10px 15px;
-  margin-bottom: 15rem;
+  margin-bottom: 10rem;
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 10px;
@@ -46,7 +45,27 @@ header span#logo {
 }
 
 header h1 {
-  width: 40vw;
+  width: 50vw;
   text-align: center;
+  font-weight: 600;
+}
+
+.btn {
+  border: 2px solid transparent;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin-top: 1.5rem;
+  padding: 20px 50px;
+}
+
+.btnPrimary {
+  color: #ffffff;
+  background-color: #203968;
+}
+
+.btnPrimary:hover {
+  background-color: #0b2452;
 }
 /*# sourceMappingURL=styles.css.map */
