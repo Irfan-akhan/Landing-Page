@@ -41,6 +41,8 @@ header {
         width: 50vw;
         text-align: center;
         font-weight: 500;
+
+        animation: fillIn 1.3s ease-in;
     }
 }
 // generall classes
@@ -54,10 +56,22 @@ header {
     padding: 20px 50px;
 }
 .btnPrimary {
+    animation: fillIn 3s ease-in;
     color: $whiteColor;
     background-color: $primaryColor;
     &:hover {
         background-color: $hoverBg;
+    }
+}
+
+// Animation
+@keyframes fillIn {
+    10% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
 

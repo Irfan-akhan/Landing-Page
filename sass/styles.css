@@ -48,6 +48,8 @@ header h1 {
   width: 50vw;
   text-align: center;
   font-weight: 500;
+  -webkit-animation: fillIn 1.3s ease-in;
+          animation: fillIn 1.3s ease-in;
 }
 
 .btn {
@@ -61,12 +63,32 @@ header h1 {
 }
 
 .btnPrimary {
+  -webkit-animation: fillIn 3s ease-in;
+          animation: fillIn 3s ease-in;
   color: #ffffff;
   background-color: #203968;
 }
 
 .btnPrimary:hover {
   background-color: #0b2452;
+}
+
+@-webkit-keyframes fillIn {
+  10% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fillIn {
+  10% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 section#brandMessage {
