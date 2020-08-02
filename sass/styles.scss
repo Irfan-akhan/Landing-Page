@@ -10,6 +10,8 @@ $primaryColor: #203968;
 $whiteColor: #ffffff;
 $hoverBg: #0b2452;
 
+// Header styles
+
 header {
     height: 95vh;
     text-transform: uppercase;
@@ -56,5 +58,32 @@ header {
     background-color: $primaryColor;
     &:hover {
         background-color: $hoverBg;
+    }
+}
+
+//Brand Message section
+
+section#brandMessage {
+    color: $primaryColor;
+    word-spacing: 5px;
+
+    margin: 2rem auto;
+    padding: 2rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    & div {
+        padding: 2rem;
+    }
+    & #logo {
+        font-size: 2.5rem;
+    }
+    & #heading {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    & #tag {
+        font-size: 1.2rem;
+        line-height: 2rem;
     }
 }

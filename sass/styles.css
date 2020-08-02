@@ -68,4 +68,34 @@ header h1 {
 .btnPrimary:hover {
   background-color: #0b2452;
 }
+
+section#brandMessage {
+  color: #203968;
+  word-spacing: 5px;
+  margin: 2rem auto;
+  padding: 2rem 4rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+section#brandMessage div {
+  padding: 2rem;
+}
+
+section#brandMessage #logo {
+  font-size: 2.5rem;
+}
+
+section#brandMessage #heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+section#brandMessage #tag {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
 /*# sourceMappingURL=styles.css.map */
