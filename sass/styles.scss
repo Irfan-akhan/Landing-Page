@@ -140,6 +140,9 @@ section#products {
             & a.btnPrimary {
                 color: $primaryColor;
                 background-color: $whiteColor;
+                &:hover {
+                    background-color: #d5d7d8;
+                }
             }
         }
         &:nth-child(odd) {
