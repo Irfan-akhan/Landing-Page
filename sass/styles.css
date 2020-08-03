@@ -142,6 +142,11 @@ section#products div {
   background-color: #ffffff;
 }
 
+section#products div:nth-of-type(3) a.btnPrimary {
+  color: #203968;
+  background-color: #ffffff;
+}
+
 section#products div:nth-child(odd) {
   padding: 2.5rem 4rem;
 }
