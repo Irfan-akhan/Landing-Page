@@ -17,6 +17,10 @@ $whiteColor: #ffffff;
 $hoverBg: #0b2452;
 
 // generall classes
+span.brand {
+    text-transform: uppercase;
+    font-weight: 700;
+}
 .btn {
     border: 2px solid transparent;
     border-radius: 20px;
@@ -44,6 +48,7 @@ $hoverBg: #0b2452;
     font-size: 1.1rem;
     line-height: 2rem;
     color: $primaryColor;
+    text-transform: capitalize;
 }
 
 // Header styles
