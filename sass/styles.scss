@@ -168,7 +168,31 @@ section#products {
 
 // SECTION CHECKOUT
 section#checkout {
-    display: grid;
+    position: relative;
+    height: 80vh;
+    background-image: linear-gradient(#0000006b, #0000006b), url(../img/chekout.jpg);
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    & div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        & h1 {
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 3rem;
+            font-weight: 700;
+        }
+        & a.btnPrimary {
+            text-transform: uppercase;
+            font-weight: 700;
+            display: inline-block;
+        }
+    }
 }
 
 // Animation
