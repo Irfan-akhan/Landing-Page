@@ -134,6 +134,7 @@ section#products {
       grid-template-rows: 1fr 1fr 1fr;
   width: 80vw;
   margin: 2rem auto;
+  margin-bottom: 0;
 }
 
 section#products div#twoRows {
