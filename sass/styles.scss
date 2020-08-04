@@ -111,8 +111,10 @@ section#brandImg {
     }
 }
 
-// Section Products
-section#products {
+// Section Products &&  Section About
+
+section#products,
+section#about {
     display: grid;
     grid-template-areas:
         'a b'
@@ -129,6 +131,7 @@ section#products {
     }
     & div {
         font-size: 2rem;
+
         &:nth-of-type(3) {
             background-color: $hoverBg;
             & p {
@@ -153,8 +156,8 @@ section#products {
         }
         & img {
             width: 100%;
-            height: 100%;
             display: block;
+            margin: 0;
         }
         & a {
             display: block;
@@ -169,7 +172,6 @@ section#products {
 
 // SECTION CHECKOUT
 section#checkout {
-    position: relative;
     height: 80vh;
     background-image: linear-gradient(#0000006b, #0000006b), url(../img/chekout.jpg);
     background-size: cover;
@@ -177,10 +179,7 @@ section#checkout {
     background-repeat: no-repeat;
     background-attachment: fixed;
     & div {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        padding-top: 15%;
         text-align: center;
         & h1 {
             color: #ffffff;
@@ -194,6 +193,10 @@ section#checkout {
             display: inline-block;
         }
     }
+}
+// section#about
+section#about {
+    margin: 0 auto;
 }
 
 // Animation
