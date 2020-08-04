@@ -70,7 +70,7 @@ header {
     & span#logo {
         padding: 5px 15px;
         margin-bottom: 10rem;
-        font-size: 1.8rem;
+        font-size: 5rem;
         font-weight: 700;
         letter-spacing: 10px;
         mix-blend-mode: lighten;
@@ -164,6 +164,11 @@ section#products {
             text-align: center;
         }
     }
+}
+
+// SECTION CHECKOUT
+section#checkout {
+    display: grid;
 }
 
 // Animation
