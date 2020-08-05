@@ -232,6 +232,61 @@ footer span.brand {
   font-weight: 300;
 }
 
+section#about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #e9e9e9;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+section#about div {
+  font-size: 3rem;
+  min-height: 100%;
+  width: 50%;
+}
+
+section#about div:first-child {
+  padding: 4rem;
+}
+
+section#about div:first-child p#tag {
+  font-size: 1.4rem;
+}
+
+section#about div:first-child h1#heading {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+section#about div:last-child {
+  padding: 4rem;
+  background-color: #0b2452;
+}
+
+section#about div:last-child p#tag {
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+
+section#about div:last-child h1#heading {
+  color: #ffffff;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+section#about div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
 @-webkit-keyframes fillIn {
   10% {
     opacity: 0;
