@@ -194,6 +194,17 @@ section#checkout {
     }
 }
 
+footer {
+    background-color: $primaryColor;
+    padding: 5rem;
+    color: $whiteColor;
+    font-size: 1.2rem;
+    text-align: center;
+    & span.brand {
+        font-weight: 300;
+    }
+}
+
 // Animation
 @keyframes fillIn {
     10% {
