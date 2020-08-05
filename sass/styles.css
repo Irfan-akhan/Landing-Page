@@ -307,6 +307,30 @@ section#testimonials {
   font-weight: 500;
 }
 
+section#testimonials blockquote {
+  margin: 0;
+}
+
+section#testimonials blockquote span.stars {
+  color: goldenrod;
+  font-size: 2.5rem;
+}
+
+section#testimonials blockquote p {
+  padding: 15px;
+  border-radius: 5px;
+}
+
+section#testimonials blockquote p::before {
+  content: '\201C';
+  font-size: 3rem;
+}
+
+section#testimonials blockquote footer {
+  margin-top: 3rem;
+  font-weight: 700;
+}
+
 @-webkit-keyframes fillIn {
   10% {
     opacity: 0;
