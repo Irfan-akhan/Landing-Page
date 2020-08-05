@@ -113,8 +113,7 @@ section#brandImg {
 
 // Section Products &&  Section About
 
-section#products,
-section#about {
+section#products {
     display: grid;
     grid-template-areas:
         'a b'
@@ -193,10 +192,6 @@ section#checkout {
             display: inline-block;
         }
     }
-}
-// section#about
-section#about {
-    margin: 0 auto;
 }
 
 // Animation
