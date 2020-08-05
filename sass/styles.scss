@@ -194,7 +194,7 @@ section#checkout {
     }
 }
 
-footer {
+footer#footer {
     background-color: $primaryColor;
     padding: 5rem;
     color: $whiteColor;
@@ -216,7 +216,7 @@ section#about {
         min-height: 100%;
         width: 50%;
         &:first-child {
-            padding: 4rem;
+            padding: 8rem;
             & p#tag {
                 font-size: 1.4rem;
             }
@@ -227,7 +227,7 @@ section#about {
             }
         }
         &:last-child {
-            padding: 4rem;
+            padding: 8rem;
             background-color: $hoverBg;
             & p#tag {
                 color: #ffffff;
@@ -244,6 +244,40 @@ section#about {
             width: 100%;
             height: 100%;
             object-fit: fill;
+        }
+    }
+}
+
+// section#testimonial
+section#testimonials {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    width: 80vw;
+    margin: 0 auto;
+    color: $primaryColor;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    & blockquote {
+        & span.stars {
+            color: goldenrod;
+            font-size: 2.5rem;
+        }
+        margin: 0;
+        & p {
+            padding: 15px;
+            border-radius: 5px;
+            &::before {
+                content: '\201C';
+                font-size: 3rem;
+            }
+        }
+        & footer {
+            margin-top: 3rem;
+            font-weight: 700;
         }
     }
 }

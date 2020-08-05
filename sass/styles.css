@@ -220,7 +220,7 @@ section#checkout div a.btnPrimary {
   display: inline-block;
 }
 
-footer {
+footer#footer {
   background-color: #203968;
   padding: 5rem;
   color: #ffffff;
@@ -228,7 +228,7 @@ footer {
   text-align: center;
 }
 
-footer span.brand {
+footer#footer span.brand {
   font-weight: 300;
 }
 
@@ -250,7 +250,7 @@ section#about div {
 }
 
 section#about div:first-child {
-  padding: 4rem;
+  padding: 8rem;
 }
 
 section#about div:first-child p#tag {
@@ -264,7 +264,7 @@ section#about div:first-child h1#heading {
 }
 
 section#about div:last-child {
-  padding: 4rem;
+  padding: 8rem;
   background-color: #0b2452;
 }
 
@@ -285,6 +285,53 @@ section#about div img {
   height: 100%;
   -o-object-fit: fill;
      object-fit: fill;
+}
+
+section#testimonials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 60vh;
+  width: 80vw;
+  margin: 0 auto;
+  color: #203968;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+section#testimonials blockquote {
+  margin: 0;
+}
+
+section#testimonials blockquote span.stars {
+  color: goldenrod;
+  font-size: 2.5rem;
+}
+
+section#testimonials blockquote p {
+  padding: 15px;
+  border-radius: 5px;
+}
+
+section#testimonials blockquote p::before {
+  content: '\201C';
+  font-size: 3rem;
+}
+
+section#testimonials blockquote footer {
+  margin-top: 3rem;
+  font-weight: 700;
 }
 
 @-webkit-keyframes fillIn {
