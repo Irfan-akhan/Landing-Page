@@ -317,6 +317,7 @@ section#testimonials blockquote span.stars {
 }
 
 section#testimonials blockquote p {
+  background-color: #afafaf;
   padding: 15px;
   border-radius: 5px;
 }
