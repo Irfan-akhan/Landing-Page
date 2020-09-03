@@ -1,2 +1,6 @@
 # Landing-Page
-Sneaker landing page created with HTML5 CSS3 &amp; JavaScript
+Sneaker landing page created 
+##Built With
+*HTML5
+*CSS
+*JavaScript
