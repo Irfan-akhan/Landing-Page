@@ -295,6 +295,9 @@ section#testimonials {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 60vh;
   width: 80vw;
   margin: 0 auto;
@@ -308,6 +311,7 @@ section#testimonials {
 }
 
 section#testimonials blockquote {
+  width: 30vw;
   margin: 0;
 }
 
