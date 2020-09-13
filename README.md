@@ -1,6 +1,6 @@
 # Sneaker product landing page
 #### Greats a simple sneaker product landing page created for a fictional company 
-### [Live Site]( https://irfan-akhan.github.io/Landing-Page)
+## [Live Site]( https://irfan-akhan.github.io/Landing-Page)
 
 ![Sneaker Landing page](https://iili.io/2qhj14.png)
 Getting Started
