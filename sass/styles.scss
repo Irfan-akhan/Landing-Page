@@ -265,22 +265,30 @@ section#testimonials {
         width: 30vw;
         & span.stars {
             color: goldenrod;
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
         margin: 0;
         & p {
             background-color: #afafaf;
             padding: 15px;
+            font-size: 1.2rem;
             border-radius: 5px;
             &::before {
                 content: '\201C';
-                font-size: 3rem;
+                font-size: 1.5rem;
             }
         }
         & footer {
-            margin-top: 3rem;
-            font-weight: 700;
+            font-size: 1rem;
+            margin-top: 1.3rem;
+            font-weight: 500;
         }
+    }
+}
+footer#footer {
+    & p:last-of-type {
+        font-size: 0.7rem;
+        margin-top: 1rem;
     }
 }
 // Animation
