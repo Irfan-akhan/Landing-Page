@@ -9,8 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 ## Installing
 1. Clone the repo
 git clone https://github.com/Irfan-akhan/Landing-Page.git
-2. Open home file
-open index.html
+2. Openindex.html
 3. Explore
 Enjoy :)
 
